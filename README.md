@@ -20,6 +20,17 @@ Ingeniería en Ciencias y Sistemas — Universidad de San Carlos de Guatemala (p
 
 ---
 
+### Proyecto destacado
+
+**[Diseño e implementación de bases de datos relacionales](https://github.com/isabh17/bases-de-datos-oracle)**
+Dos sistemas en Oracle modelados desde cero: esquema conceptual, lógico y
+relacional, procedimientos almacenados, triggers, carga masiva de datos y una
+API REST en Flask para consumirlos.
+
+`Oracle` · `SQL / PL-SQL` · `Python` · `Flask`
+
+---
+
 ### Contacto
 
 [![Email](https://img.shields.io/badge/Email-silverisa17%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:silverisa17@gmail.com)
