@@ -31,6 +31,14 @@ API REST en Flask para consumirlos.
 
 ---
 
+### Además
+
+**Diseño y maquetación — [Revista ECYS](https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital)**
+Revista digital de la Escuela de Ciencias y Sistemas (USAC). Responsable del
+diseño y la maquetación de la edición publicada.
+
+---
+
 ### Contacto
 
 [![Email](https://img.shields.io/badge/Email-silverisa17%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:silverisa17@gmail.com)
