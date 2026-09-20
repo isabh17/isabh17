@@ -24,40 +24,47 @@ developer professionally since 2024.
 
 ## 🌷 &nbsp;What I work with
 
-<table>
-<tr>
-<td valign="top" width="33%">
+<i>Every badge links to a repository where I actually used it.</i>
 
 **Databases**
 
-<img src="https://img.shields.io/badge/MySQL-EC7FA9?style=flat-square&logo=mysql&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Oracle-F191B4?style=flat-square&logo=oracle&logoColor=white"><br>
-<img src="https://img.shields.io/badge/PL/SQL-F5A3C0?style=flat-square&logo=oracle&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Schema_design-F9B5CD?style=flat-square">
-
-</td>
-<td valign="top" width="33%">
+<p>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/MySQL-EC7FA9?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/Oracle-E8749F?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/PL_SQL-F08AB0?style=for-the-badge&logo=oracle&logoColor=white" alt="PL_SQL"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/Schema_design-F5A3C0?style=for-the-badge" alt="Schema design"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/Query_tuning-F9B5CD?style=for-the-badge" alt="Query tuning"></a>
+</p>
 
 **Backend**
 
-<img src="https://img.shields.io/badge/Python-EC7FA9?style=flat-square&logo=python&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Flask-F191B4?style=flat-square&logo=flask&logoColor=white"><br>
-<img src="https://img.shields.io/badge/REST_APIs-F5A3C0?style=flat-square"><br>
-<img src="https://img.shields.io/badge/Git-F9B5CD?style=flat-square&logo=git&logoColor=white">
+<p>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/Python-EC7FA9?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/Flask-E8749F?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Go-F08AB0?style=for-the-badge&logo=go&logoColor=white" alt="Go"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/gRPC-F5A3C0?style=for-the-badge" alt="gRPC"></a>
+  <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/REST_APIs-F9B5CD?style=for-the-badge" alt="REST APIs"></a>
+</p>
 
-</td>
-<td valign="top" width="33%">
+**Infrastructure & data**
 
-**Frontend &amp; more**
+<p>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Kubernetes-EC7FA9?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Kafka-E8749F?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Redis-F08AB0?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/MongoDB-F5A3C0?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Docker-F9B5CD?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+</p>
 
-<img src="https://img.shields.io/badge/React-EC7FA9?style=flat-square&logo=react&logoColor=white"><br>
-<img src="https://img.shields.io/badge/JavaScript-F191B4?style=flat-square&logo=javascript&logoColor=white"><br>
-<img src="https://img.shields.io/badge/HTML_/_CSS-F5A3C0?style=flat-square&logo=html5&logoColor=white"><br>
-<img src="https://img.shields.io/badge/TensorFlow-F9B5CD?style=flat-square&logo=tensorflow&logoColor=white">
+**Frontend & ML**
 
-</td>
-</tr>
-</table>
+<p>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/React-EC7FA9?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/JavaScript-E8749F?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"></a>
+  <a href="https://github.com/isabh17/isabh17.github.io"><img src="https://img.shields.io/badge/HTML___CSS-F08AB0?style=for-the-badge&logo=html5&logoColor=white" alt="HTML _ CSS"></a>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/TensorFlow-F5A3C0?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"></a>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/Keras-F9B5CD?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"></a>
+</p>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
