@@ -149,11 +149,44 @@ then exported to TensorFlow.js.
 
 ## 💌 &nbsp;Beyond the code
 
-I did the **design and layout** of
-[**Revista ECYS**](https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital),
-my school's digital magazine.
+<table>
+<tr>
+<td width="31%" valign="top">
 
-I don't see that as separate from engineering. Making something readable and
+<a href="https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital">
+<img src="assets/revista-ecys.jpg" width="100%" alt="Revista ECYS — 28th edition cover">
+</a>
+
+</td>
+<td width="69%" valign="top">
+
+### Revista ECYS — 28th edition
+
+**Design and layout** &nbsp;·&nbsp; published May 2026
+
+The digital magazine of the School of Computer Science and Systems at
+Universidad de San Carlos de Guatemala. I was responsible for the visual design
+and the layout of the whole issue.
+
+**This edition:** *La Nueva Ingeniería — IA, Datos y Automatización.*
+
+- Architectures and technologies driving digital transformation
+- Governance, security and ethics in digital systems
+- New paradigms in software engineering
+- Data-driven intelligent systems
+
+Laying out a technical magazine means making dense material readable: managing
+a type hierarchy across dozens of pages, keeping a grid consistent, and making
+sure a reader can find their way through an article on system architecture
+without getting lost.
+
+**[📖 &nbsp;Read the published edition →](https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital)**
+
+</td>
+</tr>
+</table>
+
+I don't see this as separate from engineering. Making something readable and
 well presented isn't decoration — it's the same instinct that makes a schema
 worth reading.
 
