@@ -174,7 +174,7 @@ Load is generated with Locust to prove the pipeline holds under pressure.
 
 ## 🌸 &nbsp;A chatbot that runs in the browser
 
-[**→ Repository**](https://github.com/isabh17/IA1_Proyecto_17.github.io) &nbsp;·&nbsp; [**✨ Live demo**](https://isabh17.github.io/IA1_Proyecto_17.github.io/)
+[**→ Repository**](https://github.com/isabh17/IA1_Proyecto_17.github.io)
 
 A neural network trained with Keras that classifies natural-language intents,
 then exported to TensorFlow.js.
@@ -196,7 +196,7 @@ then exported to TensorFlow.js.
 3. **Training** — a dense Keras network maps that vector to one of the 784 intents.
 4. **Deployment** — the trained model is converted to TensorFlow.js. **There is
    no server.** The browser downloads the weights and runs inference locally,
-   which is why the demo works on a static host.
+   so the whole thing ships as static files.
 
 </details>
 
