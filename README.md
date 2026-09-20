@@ -117,6 +117,46 @@ when, which is exactly what a banking system needs to be able to prove.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+## ⚙️ &nbsp;Distributed voting system on Kubernetes
+
+[**→ Repository**](https://github.com/isabh17/distributed-voting-system)
+
+A system that ingests a high-volume stream of votes, queues it, persists it to
+two different stores and visualizes it in real time — deployed as microservices
+on Kubernetes. The point was never the voting: it was what happens when
+thousands of requests arrive at once and nothing is allowed to be lost.
+
+<table><tr>
+<td align="center" width="33%"><h3>6</h3>containerized services</td>
+<td align="center" width="33%"><h3>15</h3>Kubernetes manifests</td>
+<td align="center" width="33%"><h3>0</h3>votes dropped under load</td>
+</tr></table>
+
+<details>
+<summary><b>🔀 &nbsp;How the data flows, and why</b></summary>
+
+<br>
+
+```
+Locust  ─▶  gRPC client ─▶ gRPC server  ─▶  Kafka  ─▶  consumer ─┬─▶ Redis    ─▶ Grafana
+(load)                         (Go)        (queue)      (Go)     └─▶ MongoDB  ─▶ Node API ─▶ Vue app
+```
+
+**Why Kafka in the middle.** Writing straight from the gRPC server to the
+databases caps ingestion at the speed of the slowest write. The queue decouples
+them: the server only publishes, and the consumer drains at its own pace without
+losing votes during a spike.
+
+**Why two stores.** Redis holds the live counters the dashboards poll constantly;
+MongoDB keeps the durable record the API queries later. Each does what it's good
+at.
+
+Load is generated with Locust to prove the pipeline holds under pressure.
+
+`Go` · `gRPC` · `Kafka` · `Redis` · `MongoDB` · `Kubernetes` · `Grafana` · `Locust` · `Node.js` · `Vue`
+
+</details>
+
 ## 🌸 &nbsp;A chatbot that runs in the browser
 
 [**→ Repository**](https://github.com/isabh17/IA1_Proyecto_17.github.io) &nbsp;·&nbsp; [**✨ Live demo**](https://isabh17.github.io/IA1_Proyecto_17.github.io/)
