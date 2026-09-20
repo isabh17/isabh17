@@ -1,4 +1,4 @@
-<img src="assets/header.svg" width="100%" alt="Isabel Masaya — Backend & Database Developer">
+<img src="assets/banner.svg" width="100%" alt="Isabel Masaya — Backend & Database Developer">
 
 <p align="center"><img src="assets/tagline.svg" width="70%" alt=""></p>
 
