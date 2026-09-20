@@ -129,7 +129,7 @@ thousands of requests arrive at once and nothing is allowed to be lost.
 <table><tr>
 <td align="center" width="33%"><h3>6</h3>containerized services</td>
 <td align="center" width="33%"><h3>15</h3>Kubernetes manifests</td>
-<td align="center" width="33%"><h3>0</h3>votes dropped under load</td>
+<td align="center" width="33%"><h3>2</h3>data stores, different jobs</td>
 </tr></table>
 
 <details>
