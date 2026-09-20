@@ -1,66 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Isabel Masaya — backend and database developer">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"  stop-color="#FFE3EF"/>
-      <stop offset="45%" stop-color="#F9A8C8"/>
-      <stop offset="100%" stop-color="#E2679B"/>
-    </linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#fff" stop-opacity=".30"/>
-      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="round"><rect width="1200" height="280" rx="26"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#round)">
-    <rect width="1200" height="280" fill="url(#bg)"/>
-
-    <!-- burbujas suaves -->
-    <g fill="#fff" opacity=".17">
-      <circle cx="1075" cy="70" r="95">
-        <animate attributeName="cy" values="70;54;70" dur="7s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="960" cy="225" r="58">
-        <animate attributeName="cy" values="225;239;225" dur="9s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="140" cy="242" r="74">
-        <animate attributeName="cy" values="242;228;242" dur="8s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="838" cy="40" r="30">
-        <animate attributeName="cy" values="40;55;40" dur="6s" repeatCount="indefinite"/>
-      </circle>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Isabel Masaya">
+<defs>
+  <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFF1F7"/><stop offset="55%" stop-color="#FBC4DC"/><stop offset="100%" stop-color="#E76A9C"/>
+  </linearGradient>
+  <g id="flor">
+    <g fill="currentColor">
+      <ellipse cx="0" cy="-7" rx="4.4" ry="6.6"/>
+      <ellipse cx="6.7" cy="-2.2" rx="4.4" ry="6.6" transform="rotate(72)"/>
+      <ellipse cx="4.1" cy="5.7" rx="4.4" ry="6.6" transform="rotate(144)"/>
+      <ellipse cx="-4.1" cy="5.7" rx="4.4" ry="6.6" transform="rotate(216)"/>
+      <ellipse cx="-6.7" cy="-2.2" rx="4.4" ry="6.6" transform="rotate(288)"/>
     </g>
-
-    <!-- destellos -->
-    <g fill="#fff">
-      <path d="M92 66 l7 19 19 7 -19 7 -7 19 -7-19 -19-7 19-7z" opacity=".85">
-        <animate attributeName="opacity" values=".25;.95;.25" dur="3.4s" repeatCount="indefinite"/>
-      </path>
-      <path d="M1140 186 l5 14 14 5 -14 5 -5 14 -5-14 -14-5 14-5z" opacity=".7">
-        <animate attributeName="opacity" values=".8;.2;.8" dur="4.2s" repeatCount="indefinite"/>
-      </path>
-      <path d="M1010 128 l4 11 11 4 -11 4 -4 11 -4-11 -11-4 11-4z" opacity=".6">
-        <animate attributeName="opacity" values=".15;.8;.15" dur="5s" repeatCount="indefinite"/>
-      </path>
-    </g>
-
-    <!-- texto -->
-    <text x="600" y="132" text-anchor="middle" fill="#fff"
-          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="62" font-weight="700"
-          letter-spacing="1.5">Isabel Masaya</text>
-    <text x="600" y="176" text-anchor="middle" fill="#fff" fill-opacity=".95"
-          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="21" letter-spacing="3.4">
-      BACKEND &amp; DATABASE DEVELOPER
-    </text>
-    <text x="600" y="212" text-anchor="middle" fill="#fff" fill-opacity=".82"
-          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="16" letter-spacing="1.6">
-      guatemala &#183; open to remote
-    </text>
-
-    <!-- brillo que recorre -->
-    <rect x="-420" y="0" width="420" height="280" fill="url(#shine)">
-      <animate attributeName="x" from="-420" to="1200" dur="5.5s" repeatCount="indefinite"/>
-    </rect>
+    <circle r="3.1" fill="#FFF6D6"/>
   </g>
+  <clipPath id="rA"><rect width="1200" height="280" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#rA)">
+  <rect width="1200" height="280" fill="#FFF1F7"/>
+  <rect width="1200" height="280" fill="url(#bgA)" opacity=".9"/>
+
+  <g stroke="#C9426F" stroke-width="2" opacity=".45" fill="none">
+    <path d="M150 86 H310 V150"/><path d="M150 200 H250 V150 H310"/>
+    <path d="M890 86 H1050"/><path d="M890 200 H990 V150 H1050"/>
+  </g>
+  <g fill="#C9426F">
+    <circle r="5" opacity=".9"><animateMotion dur="3.6s" repeatCount="indefinite" path="M150 86 H310 V150"/></circle>
+    <circle r="5" opacity=".9"><animateMotion dur="4.4s" repeatCount="indefinite" path="M150 200 H250 V150 H310"/></circle>
+    <circle r="5" opacity=".9"><animateMotion dur="3.1s" repeatCount="indefinite" path="M890 86 H1050"/></circle>
+    <circle r="5" opacity=".9"><animateMotion dur="4.9s" repeatCount="indefinite" path="M890 200 H990 V150 H1050"/></circle>
+  </g>
+
+  <g font-family="Menlo,Consolas,monospace" font-size="11" fill="#9B3357">
+    <g><rect x="60" y="62" width="92" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="70" y="79">cliente</text><text x="70" y="97" opacity=".6">id · nombre</text></g>
+    <g><rect x="60" y="176" width="92" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="70" y="193">producto</text><text x="70" y="211" opacity=".6">id · precio</text></g>
+    <g><rect x="308" y="126" width="92" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="318" y="143">orden</text><text x="318" y="161" opacity=".6">fk · total</text></g>
+    <g><rect x="1048" y="62" width="96" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="1058" y="79">cuenta</text><text x="1058" y="97" opacity=".6">saldo</text></g>
+    <g><rect x="1048" y="176" width="96" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="1058" y="193">auditoría</text><text x="1058" y="211" opacity=".6">trigger</text></g>
+    <g><rect x="796" y="62" width="92" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="806" y="79">tx</text><text x="806" y="97" opacity=".6">monto</text></g>
+    <g><rect x="796" y="176" width="92" height="48" rx="7" fill="#fff" opacity=".92"/>
+      <text x="806" y="193">depósito</text><text x="806" y="211" opacity=".6">fecha</text></g>
+  </g>
+
+
+  <g>
+    <g transform="translate(470,64)" color="#E76A9C" opacity=".85"><use href="#flor"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="26s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(742,62)" color="#F48FB1" opacity=".8"><use href="#flor" transform="scale(.82)"/>
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="31s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(516,236)" color="#D65A8B" opacity=".75"><use href="#flor" transform="scale(.7)"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="22s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(700,240)" color="#E76A9C" opacity=".8"><use href="#flor" transform="scale(.92)"/>
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="28s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(236,44)" color="#F48FB1" opacity=".7"><use href="#flor" transform="scale(.66)"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="34s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(962,244)" color="#D65A8B" opacity=".72"><use href="#flor" transform="scale(.76)"/>
+      <animateTransform attributeName="transform" type="rotate" values="360;0" dur="24s" repeatCount="indefinite" additive="sum"/></g>
+    <g transform="translate(600,58)" color="#FBB2CE" opacity=".6"><use href="#flor" transform="scale(.58)"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="19s" repeatCount="indefinite" additive="sum"/></g>
+  </g>
+  <text x="600" y="140" text-anchor="middle" fill="#8E2A50" font-family="Trebuchet MS,Verdana,sans-serif" font-size="58" font-weight="700">Isabel Masaya</text>
+  <text x="600" y="176" text-anchor="middle" fill="#A63A62" font-family="Trebuchet MS,Verdana,sans-serif" font-size="17" letter-spacing="3">BACKEND &amp; DATABASE DEVELOPER</text>
+  <text x="600" y="206" text-anchor="middle" fill="#B0496F" font-family="Trebuchet MS,Verdana,sans-serif" font-size="14" letter-spacing="1.4">guatemala &#183; open to remote</text>
+</g>
 </svg>
