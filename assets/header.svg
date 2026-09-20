@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Isabel Masaya — backend and database developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#FFE3EF"/>
+      <stop offset="45%" stop-color="#F9A8C8"/>
+      <stop offset="100%" stop-color="#E2679B"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#fff" stop-opacity=".30"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="280" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="280" fill="url(#bg)"/>
+
+    <!-- burbujas suaves -->
+    <g fill="#fff" opacity=".17">
+      <circle cx="1075" cy="70" r="95">
+        <animate attributeName="cy" values="70;54;70" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="960" cy="225" r="58">
+        <animate attributeName="cy" values="225;239;225" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="140" cy="242" r="74">
+        <animate attributeName="cy" values="242;228;242" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="838" cy="40" r="30">
+        <animate attributeName="cy" values="40;55;40" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- destellos -->
+    <g fill="#fff">
+      <path d="M92 66 l7 19 19 7 -19 7 -7 19 -7-19 -19-7 19-7z" opacity=".85">
+        <animate attributeName="opacity" values=".25;.95;.25" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1140 186 l5 14 14 5 -14 5 -5 14 -5-14 -14-5 14-5z" opacity=".7">
+        <animate attributeName="opacity" values=".8;.2;.8" dur="4.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1010 128 l4 11 11 4 -11 4 -4 11 -4-11 -11-4 11-4z" opacity=".6">
+        <animate attributeName="opacity" values=".15;.8;.15" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- texto -->
+    <text x="600" y="132" text-anchor="middle" fill="#fff"
+          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="62" font-weight="700"
+          letter-spacing="1.5">Isabel Masaya</text>
+    <text x="600" y="176" text-anchor="middle" fill="#fff" fill-opacity=".95"
+          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="21" letter-spacing="3.4">
+      BACKEND &amp; DATABASE DEVELOPER
+    </text>
+    <text x="600" y="212" text-anchor="middle" fill="#fff" fill-opacity=".82"
+          font-family="Trebuchet MS, Verdana, Geneva, sans-serif" font-size="16" letter-spacing="1.6">
+      guatemala &#183; open to remote
+    </text>
+
+    <!-- brillo que recorre -->
+    <rect x="-420" y="0" width="420" height="280" fill="url(#shine)">
+      <animate attributeName="x" from="-420" to="1200" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

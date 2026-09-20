@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 54" width="760" height="54" role="img" aria-label="model the problem before writing tables">
+  <style>
+    .t{font-family:"Trebuchet MS",Verdana,sans-serif;font-size:21px;font-weight:600;fill:#E2679B}
+  </style>
+  <g text-anchor="middle">
+    <text class="t" x="380" y="34" opacity="0">
+      model the problem before writing tables
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text class="t" x="380" y="34" opacity="0">
+      keep the query fast six months from now
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text class="t" x="380" y="34" opacity="0">
+      put the logic where it belongs
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

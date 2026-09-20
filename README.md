@@ -1,10 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=200&section=header&text=Isabel%20Masaya&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=backend%20%26%20database%20developer%20%C2%B7%20DBA&descSize=17&descAlignY=56&animation=fadeIn" width="100%">
+<img src="assets/header.svg" width="100%" alt="Isabel Masaya — Backend & Database Developer">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=22&duration=3200&pause=900&color=EC7FA9&center=true&vCenter=true&width=680&height=45&lines=model+the+problem+before+writing+tables;keep+the+query+fast+six+months+from+now;put+the+logic+where+it+belongs">
-</p>
-
-<p align="center">🎀 　 ୨୧ 　 🎀</p>
+<p align="center"><img src="assets/tagline.svg" width="70%" alt=""></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/📍_Guatemala-EC7FA9?style=flat-square">
@@ -13,10 +9,8 @@
   <img src="https://img.shields.io/badge/English_C1_·_Spanish_native-F9B5CD?style=flat-square">
 </p>
 
-<br>
-
-I work on **backend and databases** — currently on a backend/DBA team,
-where I design schemas, tune queries and keep production data healthy.
+I work on **backend and databases** — currently on a backend/DBA team, where I
+design schemas, tune queries and keep production data healthy.
 
 What I enjoy most is the modeling: understanding the problem properly before
 creating a single table. A badly designed schema doesn't hurt on day one — it
@@ -26,7 +20,7 @@ I hold a degree in Computer Science and Systems Engineering from
 **Universidad de San Carlos de Guatemala**, and I've been working as a
 developer professionally since 2024.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 🌷 &nbsp;What I work with
 
@@ -54,18 +48,18 @@ developer professionally since 2024.
 </td>
 <td valign="top" width="33%">
 
-**Frontend & more**
+**Frontend &amp; more**
 
 <img src="https://img.shields.io/badge/React-EC7FA9?style=flat-square&logo=react&logoColor=white"><br>
 <img src="https://img.shields.io/badge/JavaScript-F191B4?style=flat-square&logo=javascript&logoColor=white"><br>
-<img src="https://img.shields.io/badge/TensorFlow-F5A3C0?style=flat-square&logo=tensorflow&logoColor=white"><br>
-<img src="https://img.shields.io/badge/HTML_/_CSS-F9B5CD?style=flat-square&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/HTML_/_CSS-F5A3C0?style=flat-square&logo=html5&logoColor=white"><br>
+<img src="https://img.shields.io/badge/TensorFlow-F9B5CD?style=flat-square&logo=tensorflow&logoColor=white">
 
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 🗄️ &nbsp;Relational databases in Oracle
 
@@ -75,12 +69,17 @@ Two systems taken from conceptual model to a working implementation. Neither is
 a syntax exercise: both required deciding how to split entities, where the
 constraints belong, and which logic deserves to live inside the engine.
 
+<table><tr>
+<td align="center" width="25%"><h3>20</h3>tables</td>
+<td align="center" width="25%"><h3>10</h3>stored procedures</td>
+<td align="center" width="25%"><h3>25</h3>business queries</td>
+<td align="center" width="25%"><h3>20k</h3>records loaded</td>
+</tr></table>
+
 <details>
 <summary><b>🛒 &nbsp;Commerce system — 7 tables + REST API</b></summary>
 
 <br>
-
-**The model**
 
 | Entity | Purpose |
 |---|---|
@@ -89,16 +88,10 @@ constraints belong, and which logic deserves to live inside the engine.
 | `orden_de_venta` | Sales order header |
 | `detalle` | Resolves the many-to-many between orders and products |
 
-**The hard part**
-
-Bulk loading. Data arrives in six separate CSV files and can't be inserted
-directly: it lands first in a temporary staging table, then gets distributed to
-the final tables respecting foreign-key order. **20,000 customer records.**
-
-On top of that: **25 business queries** and a Flask REST API with a web
-interface.
-
-`Oracle` · `Python` · `Flask` · `SQL`
+**The hard part** — bulk loading. Data arrives in six separate CSV files and
+can't be inserted directly: it lands first in a staging table, then gets
+distributed to the final tables respecting foreign-key order. 20,000 customer
+records, plus 25 business queries and a Flask REST API.
 
 </details>
 
@@ -111,37 +104,31 @@ The design decision here was to put transactional logic **inside the database**
 rather than in the application. If a transfer has to be atomic, the engine is
 the right place to guarantee it.
 
-**10 stored procedures**
-
-`registrarCliente` · `registrarCuenta` · `realizarDeposito` ·
-`realizarDebito` · `realizarCompra` · `asignarTransaccion` ·
+**Ten stored procedures** — `registrarCliente` · `registrarCuenta` ·
+`realizarDeposito` · `realizarDebito` · `realizarCompra` · `asignarTransaccion` ·
 `crearProductoServicio` · `registrarTipoCliente` · `registrarTipoCuenta` ·
 `registrarTipoTransaccion`
 
-**Audit triggers**
-
-Every table carries an `_audit` trigger that logs any change to a ledger. These
-aren't isolated triggers — together they form a complete trail of who touched
-what and when, which is exactly what a banking system needs to be able to prove.
-
-**Entities**
-
-`cuenta_bancaria` · `transaccion` · `deposito` · `debito` · `compra` ·
-`historial` · `producto_servicio` · `cliente` · `tipo_cliente` ·
-`tipo_cuenta` · `tip_trans` · `correo` · `telefono`
-
-`Oracle` · `PL/SQL`
+**Audit triggers** — every table carries an `_audit` trigger that logs any
+change to a ledger. Together they form a complete trail of who changed what and
+when, which is exactly what a banking system needs to be able to prove.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 🌸 &nbsp;A chatbot that runs in the browser
 
 [**→ Repository**](https://github.com/isabh17/IA1_Proyecto_17.github.io) &nbsp;·&nbsp; [**✨ Live demo**](https://isabh17.github.io/IA1_Proyecto_17.github.io/)
 
-A neural network trained with Keras that classifies **784 distinct intents**
-from **2,075 training patterns**.
+A neural network trained with Keras that classifies natural-language intents,
+then exported to TensorFlow.js.
+
+<table><tr>
+<td align="center" width="33%"><h3>784</h3>intents</td>
+<td align="center" width="33%"><h3>2,075</h3>training patterns</td>
+<td align="center" width="33%"><h3>0</h3>servers needed</td>
+</tr></table>
 
 <details>
 <summary><b>🧠 &nbsp;How it works under the hood</b></summary>
@@ -151,18 +138,14 @@ from **2,075 training patterns**.
 1. **Preprocessing** — NLTK tokenizes and lemmatizes each pattern, producing the
    model's vocabulary.
 2. **Representation** — every phrase becomes a bag-of-words vector.
-3. **Training** — a dense Keras network learns to map that vector to one of the
-   784 intents.
-4. **Deployment** — and here's the interesting part: the trained model is
-   converted to TensorFlow.js. **There is no server.** The browser downloads the
-   weights and runs inference locally, which is why the demo works on GitHub
-   Pages, a static-file host.
-
-`TensorFlow` · `Keras` · `NLTK` · `TensorFlow.js` · `JavaScript`
+3. **Training** — a dense Keras network maps that vector to one of the 784 intents.
+4. **Deployment** — the trained model is converted to TensorFlow.js. **There is
+   no server.** The browser downloads the weights and runs inference locally,
+   which is why the demo works on a static host.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 💌 &nbsp;Beyond the code
 
@@ -174,17 +157,17 @@ I don't see that as separate from engineering. Making something readable and
 well presented isn't decoration — it's the same instinct that makes a schema
 worth reading.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## ✨ &nbsp;Currently
 
-Open to **backend**, **DBA** and **database engineering** roles, remote or based in
-Guatemala. I work comfortably in English and Spanish.
+Open to **backend**, **DBA** and **database engineering** roles — remote or
+based in Guatemala.
 
 <p align="center">
   <a href="mailto:silverisa17@gmail.com"><img src="https://img.shields.io/badge/get_in_touch-EC7FA9?style=for-the-badge&logo=gmail&logoColor=white"></a>
   &nbsp;
-  <a href="https://isabh17.github.io/"><img src="https://img.shields.io/badge/my_résumé-F9B5CD?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+  <a href="https://isabh17.github.io/"><img src="https://img.shields.io/badge/my_résumé-F5A3C0?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC7FA9,50:F9B8D0,100:FFF0F5&height=110&section=footer" width="100%">
+<p align="center">🎀 　 ୨୧ 　 🎀</p>
