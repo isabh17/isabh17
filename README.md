@@ -252,4 +252,13 @@ Guatemala.
   <a href="https://isabh17.github.io/"><img src="https://img.shields.io/badge/my_résumé-F5A3C0?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
 </p>
 
-<p align="center">🎀 　 ୨୧ 　 🎀</p>
+<p align="center">🎀 　 ✿ 　 🎀</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/📍_Guatemala-EC7FA9?style=flat-square">
+  <img src="https://img.shields.io/badge/GMT–6_·_overlaps_US_Central-F191B4?style=flat-square">
+  <img src="https://img.shields.io/badge/Open_to_remote-F5A3C0?style=flat-square">
+  <img src="https://img.shields.io/badge/English_C1_·_Spanish_native-F9B5CD?style=flat-square">
+</p>
+
+<img src="assets/banner-footer.svg" width="100%" alt="">
