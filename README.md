@@ -65,7 +65,8 @@ developer professionally since 2024.
   <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/JavaScript-E8749F?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"></a>
   <a href="https://github.com/isabh17/isabh17.github.io"><img src="https://img.shields.io/badge/HTML___CSS-F08AB0?style=for-the-badge&logo=html5&logoColor=white" alt="HTML _ CSS"></a>
   <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/TensorFlow-F5A3C0?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"></a>
-  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/Keras-F9B5CD?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"></a>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/Keras-F5A3C0?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"></a>
+  <a href="https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital"><img src="https://img.shields.io/badge/R_/_RStudio-F9B5CD?style=for-the-badge&logo=r&logoColor=white" alt="R / RStudio"></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="">
@@ -211,7 +212,7 @@ then exported to TensorFlow.js.
 
 ### Revista ECYS — 28th edition
 
-**Design and layout** &nbsp;·&nbsp; published May 2026
+**Design and layout, built in R / RStudio** &nbsp;·&nbsp; published May 2026
 
 The digital magazine of the School of Computer Science and Systems at
 Universidad de San Carlos de Guatemala. I was responsible for the visual design
@@ -224,10 +225,13 @@ and the layout of the whole issue.
 - New paradigms in software engineering
 - Data-driven intelligent systems
 
-Laying out a technical magazine means making dense material readable: managing
-a type hierarchy across dozens of pages, keeping a grid consistent, and making
-sure a reader can find their way through an article on system architecture
-without getting lost.
+I produced it in **R / RStudio** rather than a manual layout tool — a
+reproducible publishing pipeline, where the document is generated from source
+and the layout rules are written once instead of applied page by page.
+
+Laying out a technical magazine means making dense material readable: a type
+hierarchy that holds across dozens of pages, a consistent grid, and a reader
+who can follow an article on system architecture without getting lost.
 
 **[📖 &nbsp;Read the published edition →](https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital)**
 
