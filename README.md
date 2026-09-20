@@ -1,21 +1,22 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=200&section=header&text=Isabel%20Masaya&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=software%20developer%20%C2%B7%20databases%20%26%20backend&descSize=17&descAlignY=56&animation=fadeIn" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=200&section=header&text=Isabel%20Masaya&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=backend%20%26%20database%20developer%20%C2%B7%20DBA&descSize=17&descAlignY=56&animation=fadeIn" width="100%">
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=22&duration=3200&pause=900&color=C98FDB&center=true&vCenter=true&width=680&height=45&lines=model+the+problem+before+writing+tables;keep+the+query+fast+six+months+from+now;put+the+logic+where+it+belongs">
+  <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=600&size=22&duration=3200&pause=900&color=EC7FA9&center=true&vCenter=true&width=680&height=45&lines=model+the+problem+before+writing+tables;keep+the+query+fast+six+months+from+now;put+the+logic+where+it+belongs">
 </p>
 
 <p align="center">🎀 　 ୨୧ 　 🎀</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍_Guatemala-C98FDB?style=flat-square">
-  <img src="https://img.shields.io/badge/GMT–6_·_overlaps_US_Central-D4A0DC?style=flat-square">
-  <img src="https://img.shields.io/badge/Open_to_remote-DDA8DC?style=flat-square">
-  <img src="https://img.shields.io/badge/English_C1_·_Spanish_native-E6B0D8?style=flat-square">
+  <img src="https://img.shields.io/badge/📍_Guatemala-EC7FA9?style=flat-square">
+  <img src="https://img.shields.io/badge/GMT–6_·_overlaps_US_Central-F191B4?style=flat-square">
+  <img src="https://img.shields.io/badge/Open_to_remote-F5A3C0?style=flat-square">
+  <img src="https://img.shields.io/badge/English_C1_·_Spanish_native-F9B5CD?style=flat-square">
 </p>
 
 <br>
 
-I build **relational databases** and the **Python backends** that consume them.
+I work on **backend and databases** — currently on a backend/DBA team,
+where I design schemas, tune queries and keep production data healthy.
 
 What I enjoy most is the modeling: understanding the problem properly before
 creating a single table. A badly designed schema doesn't hurt on day one — it
@@ -25,7 +26,7 @@ I hold a degree in Computer Science and Systems Engineering from
 **Universidad de San Carlos de Guatemala**, and I've been working as a
 developer professionally since 2024.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=3&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
 
 ## 🌷 &nbsp;What I work with
 
@@ -35,36 +36,36 @@ developer professionally since 2024.
 
 **Databases**
 
-<img src="https://img.shields.io/badge/MySQL-C98FDB?style=flat-square&logo=mysql&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Oracle-D4A0DC?style=flat-square&logo=oracle&logoColor=white"><br>
-<img src="https://img.shields.io/badge/PL/SQL-DDA8DC?style=flat-square&logo=oracle&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Schema_design-E6B0D8?style=flat-square">
+<img src="https://img.shields.io/badge/MySQL-EC7FA9?style=flat-square&logo=mysql&logoColor=white"><br>
+<img src="https://img.shields.io/badge/Oracle-F191B4?style=flat-square&logo=oracle&logoColor=white"><br>
+<img src="https://img.shields.io/badge/PL/SQL-F5A3C0?style=flat-square&logo=oracle&logoColor=white"><br>
+<img src="https://img.shields.io/badge/Schema_design-F9B5CD?style=flat-square">
 
 </td>
 <td valign="top" width="33%">
 
 **Backend**
 
-<img src="https://img.shields.io/badge/Python-C98FDB?style=flat-square&logo=python&logoColor=white"><br>
-<img src="https://img.shields.io/badge/Flask-D4A0DC?style=flat-square&logo=flask&logoColor=white"><br>
-<img src="https://img.shields.io/badge/REST_APIs-DDA8DC?style=flat-square"><br>
-<img src="https://img.shields.io/badge/Git-E6B0D8?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Python-EC7FA9?style=flat-square&logo=python&logoColor=white"><br>
+<img src="https://img.shields.io/badge/Flask-F191B4?style=flat-square&logo=flask&logoColor=white"><br>
+<img src="https://img.shields.io/badge/REST_APIs-F5A3C0?style=flat-square"><br>
+<img src="https://img.shields.io/badge/Git-F9B5CD?style=flat-square&logo=git&logoColor=white">
 
 </td>
 <td valign="top" width="33%">
 
 **Frontend & more**
 
-<img src="https://img.shields.io/badge/React-C98FDB?style=flat-square&logo=react&logoColor=white"><br>
-<img src="https://img.shields.io/badge/JavaScript-D4A0DC?style=flat-square&logo=javascript&logoColor=white"><br>
-<img src="https://img.shields.io/badge/TensorFlow-DDA8DC?style=flat-square&logo=tensorflow&logoColor=white"><br>
-<img src="https://img.shields.io/badge/HTML_/_CSS-E6B0D8?style=flat-square&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/React-EC7FA9?style=flat-square&logo=react&logoColor=white"><br>
+<img src="https://img.shields.io/badge/JavaScript-F191B4?style=flat-square&logo=javascript&logoColor=white"><br>
+<img src="https://img.shields.io/badge/TensorFlow-F5A3C0?style=flat-square&logo=tensorflow&logoColor=white"><br>
+<img src="https://img.shields.io/badge/HTML_/_CSS-F9B5CD?style=flat-square&logo=html5&logoColor=white">
 
 </td>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=3&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
 
 ## 🗄️ &nbsp;Relational databases in Oracle
 
@@ -133,7 +134,7 @@ what and when, which is exactly what a banking system needs to be able to prove.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=3&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
 
 ## 🌸 &nbsp;A chatbot that runs in the browser
 
@@ -161,7 +162,7 @@ from **2,075 training patterns**.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=3&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
 
 ## 💌 &nbsp;Beyond the code
 
@@ -173,17 +174,17 @@ I don't see that as separate from engineering. Making something readable and
 well presented isn't decoration — it's the same instinct that makes a schema
 worth reading.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FDEEF4,50:F0B8D8,100:C98FDB&height=3&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FFF0F5,50:F9B8D0,100:EC7FA9&height=3&section=footer" width="100%">
 
 ## ✨ &nbsp;Currently
 
-Open to **backend** and **database-focused** roles, remote or based in
+Open to **backend**, **DBA** and **database engineering** roles, remote or based in
 Guatemala. I work comfortably in English and Spanish.
 
 <p align="center">
-  <a href="mailto:silverisa17@gmail.com"><img src="https://img.shields.io/badge/get_in_touch-C98FDB?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="mailto:silverisa17@gmail.com"><img src="https://img.shields.io/badge/get_in_touch-EC7FA9?style=for-the-badge&logo=gmail&logoColor=white"></a>
   &nbsp;
-  <a href="https://isabh17.github.io/"><img src="https://img.shields.io/badge/my_résumé-E6B0D8?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+  <a href="https://isabh17.github.io/"><img src="https://img.shields.io/badge/my_résumé-F9B5CD?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C98FDB,50:F0B8D8,100:FDEEF4&height=110&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:EC7FA9,50:F9B8D0,100:FFF0F5&height=110&section=footer" width="100%">
