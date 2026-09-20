@@ -48,14 +48,14 @@ developer professionally since 2024.
   <a href="https://github.com/isabh17/bases-de-datos-oracle"><img src="https://img.shields.io/badge/REST_APIs-F9B5CD?style=for-the-badge" alt="REST APIs"></a>
 </p>
 
-**Infrastructure & data**
+**Infrastructure**
 
 <p>
   <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Kubernetes-EC7FA9?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"></a>
-  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Kafka-E8749F?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka"></a>
-  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Redis-F08AB0?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
-  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/MongoDB-F5A3C0?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
-  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Docker-F9B5CD?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Docker-E8749F?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Kafka-F08AB0?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Kafka"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Redis-F5A3C0?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+  <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/MongoDB-F9B5CD?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
 </p>
 
 **Frontend**
@@ -64,9 +64,14 @@ developer professionally since 2024.
   <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/React-EC7FA9?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
   <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/JavaScript-E8749F?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"></a>
   <a href="https://github.com/isabh17/isabh17.github.io"><img src="https://img.shields.io/badge/HTML___CSS-F08AB0?style=for-the-badge&logo=html5&logoColor=white" alt="HTML _ CSS"></a>
-  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/TensorFlow-F5A3C0?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"></a>
-  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/Keras-F5A3C0?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"></a>
-  <a href="https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital"><img src="https://img.shields.io/badge/R_/_RStudio-F9B5CD?style=for-the-badge&logo=r&logoColor=white" alt="R / RStudio"></a>
+</p>
+
+**Data & ML**
+
+<p>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/TensorFlow-EC7FA9?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"></a>
+  <a href="https://github.com/isabh17/IA1_Proyecto_17.github.io"><img src="https://img.shields.io/badge/Keras-E8749F?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"></a>
+  <a href="https://issuu.com/revistaecys/docs/vigesimaoctava-revistadigital"><img src="https://img.shields.io/badge/R___RStudio-F08AB0?style=for-the-badge&logo=r&logoColor=white" alt="R _ RStudio"></a>
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="">
