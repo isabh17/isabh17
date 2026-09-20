@@ -64,8 +64,9 @@
     <g transform="translate(600,58)" color="#FBB2CE" opacity=".6"><use href="#flor" transform="scale(.58)"/>
       <animateTransform attributeName="transform" type="rotate" values="0;360" dur="19s" repeatCount="indefinite" additive="sum"/></g>
   </g>
-  <text x="600" y="140" text-anchor="middle" fill="#8E2A50" font-family="Trebuchet MS,Verdana,sans-serif" font-size="58" font-weight="700">Isabel Masaya</text>
-  <text x="600" y="176" text-anchor="middle" fill="#A63A62" font-family="Trebuchet MS,Verdana,sans-serif" font-size="17" letter-spacing="3">BACKEND &amp; DATABASE DEVELOPER</text>
-  <text x="600" y="206" text-anchor="middle" fill="#B0496F" font-family="Trebuchet MS,Verdana,sans-serif" font-size="14" letter-spacing="1.4">guatemala &#183; open to remote</text>
+  <text x="600" y="130" text-anchor="middle" fill="#8E2A50" font-family="Trebuchet MS,Verdana,sans-serif" font-size="56" font-weight="700">Isabel Masaya</text>
+  <text x="600" y="166" text-anchor="middle" fill="#A63A62" font-family="Trebuchet MS,Verdana,sans-serif" font-size="18" letter-spacing="3.4">FULL STACK DEVELOPER</text>
+  <text x="600" y="193" text-anchor="middle" fill="#B0496F" font-family="Trebuchet MS,Verdana,sans-serif" font-size="14" letter-spacing="1.6">databases &#183; backend &#183; frontend</text>
+  <text x="600" y="217" text-anchor="middle" fill="#BC5A7C" font-family="Trebuchet MS,Verdana,sans-serif" font-size="13" letter-spacing="1.2">guatemala &#183; open to remote</text>
 </g>
 </svg>

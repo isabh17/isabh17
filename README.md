@@ -9,12 +9,14 @@
   <img src="https://img.shields.io/badge/English_C1_·_Spanish_native-F9B5CD?style=flat-square">
 </p>
 
-I work on **backend and databases** — currently on a backend/DBA team, where I
-design schemas, tune queries and keep production data healthy.
+I'm a **full stack developer** — I build the interface, the API behind it and
+the database underneath. Currently on a backend/DBA team, where I design
+schemas, tune queries and keep production data healthy.
 
-What I enjoy most is the modeling: understanding the problem properly before
-creating a single table. A badly designed schema doesn't hurt on day one — it
-hurts six months later, in every query that drags.
+Working across the stack means I can see where a problem actually starts — a
+slow screen is often a missing index, not a rendering issue. The data layer is
+where I go deepest: a badly designed schema doesn't hurt on day one, it hurts
+six months later, in every query that drags.
 
 I hold a degree in Computer Science and Systems Engineering from
 **Universidad de San Carlos de Guatemala**, and I've been working as a
@@ -56,7 +58,7 @@ developer professionally since 2024.
   <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/Docker-F9B5CD?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
 </p>
 
-**Frontend & ML**
+**Frontend**
 
 <p>
   <a href="https://github.com/isabh17/distributed-voting-system"><img src="https://img.shields.io/badge/React-EC7FA9?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
@@ -241,8 +243,8 @@ worth reading.
 
 ## ✨ &nbsp;Currently
 
-Open to **backend**, **DBA** and **database engineering** roles — remote or
-based in Guatemala.
+Open to **full stack**, **backend** and **database** roles — remote or based in
+Guatemala.
 
 <p align="center">
   <a href="mailto:silverisa17@gmail.com"><img src="https://img.shields.io/badge/get_in_touch-EC7FA9?style=for-the-badge&logo=gmail&logoColor=white"></a>
